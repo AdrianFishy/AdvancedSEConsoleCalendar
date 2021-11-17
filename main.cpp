@@ -5,45 +5,65 @@
 
 bool get_leap_year(int year);
 int get_max_month_day_int(int month, int year);
+std::string  get_monthday_string (int month);
+void clear_screen();
 
 
 int main() {
     bool run = true;
 
-
     time_t now = time(0);
-    std::cout << "Number of sec since January 1,1970 is:: " << now << std::endl;
-
     tm *ltm = localtime(&now);
+    int const yeardiff = 1900;
+    int month_selected = ltm->tm_mon;
+    int year_selected = ltm ->tm_year + yeardiff;
+    int selected;
+    do {
+        std::cout << "year " << year_selected << std::endl;
+        std::cout << "get_max: " << get_max_month_day_int(month_selected, year_selected) << std::endl;
 
-    // print various components of tm structure.
+        std::cout << get_monthday_string(month_selected) << " Year:  " << year_selected << std::endl;
+        std::cout << "MO        |DI        |MI        |DO        |FR        |SA        |SO        |" << std::endl;
+        std::cout << "_____________________________________________________________________________" << std::endl;
 
-    std::cout << "Wday:" << ltm->tm_wday<<std::endl;
-    std::cout << "Year:" << 1900 + ltm->tm_year<<std::endl;
-    std::cout << "Month: "<< 1 + ltm->tm_mon<< std::endl;
-    std::cout << "Day: "<< ltm->tm_mday << std::endl;
-    std::cout << "Time: "<< 5+ltm->tm_hour << ":";
-    std::cout << 30+ltm->tm_min << ":";
-    std::cout << ltm->tm_sec << std::endl;
+        for (int i = 1; i <= get_max_month_day_int(month_selected, year_selected); i++) {
 
-    std::cout << "get_max: "<< get_max_month_day_int(ltm->tm_mday, ltm->tm_year)<< std::endl;
-
-    std::cout << "MO        |DI        |MI        |DO        |FR        |SA        |SO        |" << std::endl;
-    std::cout << "_____________________________________________________________________________" << std::endl;
-
-    for (int i = 1; i < get_max_month_day_int(ltm->tm_mon, ltm->tm_year); i++){
-
-        if ( i <= 9) {
-            std::cout << i << "         |";
+            if (i <= 9) {
+                std::cout << i << "         |";
+            } else {
+                std::cout << i << "        |";
+            }
+            if ((i % 7) == 0) {
+                std::cout << std::endl;
+            }
         }
-        else {
-            std::cout << i << "        |";
-        }
-        if ((i % 7) == 0){
-            std::cout << std::endl;
-        }
-    }
 
+        std::cout << std::endl;
+        std::cout << "Bitte 2 für nächsten Monat und 1 für vorherigen Monat eingeben, 3 für exit: "  <<std::endl;
+        std::cin >> selected;
+        clear_screen();
+
+        switch (selected) {
+
+            case 1:
+                month_selected -= 1;
+                if (month_selected < 0){
+                    month_selected = 11;
+                    year_selected -= 1;
+                }
+                break;
+            case 2:
+                month_selected += 1;
+                if (month_selected == 12){
+                    month_selected = 0;
+                    year_selected += 1;
+                }
+                break;
+            case 3:
+                run = false;
+        }
+
+    }while (run);
 
 
     
@@ -57,51 +77,51 @@ std::string get_monthday_string (int month){
 
     switch (month) {
 
-        case 1:
+        case 0:
             return_month_string = "Jan";
             break;
 
-        case 2:
+        case 1:
             return_month_string = "Feb";
             break;
 
-        case 3:
+        case 2:
             return_month_string = "Mar";
             break;
 
-        case 4:
+        case 3:
             return_month_string = "Apr";
             break;
 
-        case 5:
+        case 4:
             return_month_string = "Mai";
             break;
 
-        case 6:
+        case 5:
             return_month_string = "Jun";
             break;
 
-        case 7:
+        case 6:
             return_month_string = "Jul";
             break;
 
-        case 8:
+        case 7:
             return_month_string = "Aug";
             break;
 
-        case 9:
+        case 8:
             return_month_string = "Sep";
             break;
 
-        case 10:
+        case 9:
             return_month_string = "Okt";
             break;
 
-        case 11:
+        case 10:
             return_month_string = "Nov";
             break;
 
-        case 12:
+        case 11:
             return_month_string = "Dez";
             break;
 
@@ -118,11 +138,11 @@ int get_max_month_day_int (int month, int year) {
 
     switch (month) {
 
-        case 1:
+        case 0:
             return_max_month_days = thirtyone;
             break;
 
-        case 2:
+        case 1:
             if (is_leap_year){
                 return_max_month_days = 29;
             }
@@ -131,20 +151,24 @@ int get_max_month_day_int (int month, int year) {
             }
             break;
 
-        case 3:
+        case 2:
             return_max_month_days = thirtyone;
             break;
 
-        case 4:
+        case 3:
             return_max_month_days = thirty;
             break;
 
-        case 5:
+        case 4:
             return_max_month_days = thirtyone;
             break;
 
-        case 6:
+        case 5:
             return_max_month_days = thirty ;
+            break;
+
+        case 6:
+            return_max_month_days = thirtyone;
             break;
 
         case 7:
@@ -152,22 +176,18 @@ int get_max_month_day_int (int month, int year) {
             break;
 
         case 8:
-            return_max_month_days = thirtyone;
+            return_max_month_days = thirty;
             break;
 
         case 9:
-            return_max_month_days = thirty;
-            break;
-
-        case 10:
             return_max_month_days = thirtyone;
             break;
 
-        case 11:
+        case 10:
             return_max_month_days = thirty;
             break;
 
-        case 12:
+        case 11:
             return_max_month_days = thirtyone;
             break;
 
@@ -186,4 +206,11 @@ bool get_leap_year (int year) {
         return false;
 
     }
+}
+
+void clear_screen()
+{
+    int n;
+    for (n = 0; n < 10; n++)
+        std::cout << "\n\n\n\n\n\n\n\n\n\n" << std::endl;
 }
