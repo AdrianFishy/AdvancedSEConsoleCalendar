@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
   "AdvancedSEConsoleCalendar.exe"
+  "AdvancedSEConsoleCalendar.exe.manifest"
   "AdvancedSEConsoleCalendar.pdb"
-  "CMakeFiles/AdvancedSEConsoleCalendar.dir/main.cpp.o"
+  "CMakeFiles/AdvancedSEConsoleCalendar.dir/Classes/Test.cpp.obj"
+  "CMakeFiles/AdvancedSEConsoleCalendar.dir/Classes/Test.cpp.obj.d"
+  "CMakeFiles/AdvancedSEConsoleCalendar.dir/main.cpp.obj"
+  "CMakeFiles/AdvancedSEConsoleCalendar.dir/main.cpp.obj.d"
   "libAdvancedSEConsoleCalendar.dll.a"
 )
 

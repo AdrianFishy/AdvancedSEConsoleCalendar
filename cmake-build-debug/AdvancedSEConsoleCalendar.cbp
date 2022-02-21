@@ -8,82 +8,90 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AdvancedSEConsoleCalendar">
-				<Option output="/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/AdvancedSEConsoleCalendar.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
+				<Option output="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/AdvancedSEConsoleCalendar.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSEConsoleCalendar"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSEConsoleCalendar"/>
+					<CompileFile command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AdvancedSEConsoleCalendar/fast">
-				<Option output="/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/AdvancedSEConsoleCalendar.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
+				<Option output="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/AdvancedSEConsoleCalendar.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSEConsoleCalendar/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSEConsoleCalendar/fast"/>
+					<CompileFile command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Adrian/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/main.cpp">
+		<Unit filename="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/Classes/Test.cpp">
 			<Option target="AdvancedSEConsoleCalendar"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/CMakeLists.txt">
+		<Unit filename="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/Classes/Test.h">
+			<Option target="AdvancedSEConsoleCalendar"/>
+		</Unit>
+		<Unit filename="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/main.cpp">
+			<Option target="AdvancedSEConsoleCalendar"/>
+		</Unit>
+		<Unit filename="C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

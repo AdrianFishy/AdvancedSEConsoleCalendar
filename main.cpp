@@ -2,6 +2,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <cstring>
+#include "Classes/Test.h"
 
 bool get_leap_year(int year);
 int get_max_month_day_int(int month, int year);
@@ -11,6 +12,10 @@ void clear_screen();
 
 int main() {
     bool run = true;
+
+    Test t1;
+
+    std::cout << t1.TestFunction(2);
 
     time_t now = time(0);
     tm *ltm = localtime(&now);

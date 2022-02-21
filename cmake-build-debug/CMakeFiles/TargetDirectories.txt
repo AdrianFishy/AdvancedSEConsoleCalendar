@@ -1,3 +1,3 @@
-/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/CMakeFiles/AdvancedSEConsoleCalendar.dir
+C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/CMakeFiles/AdvancedSEConsoleCalendar.dir
+C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Adrian/CLionProjects/AdvancedSEConsoleCalendar/cmake-build-debug/CMakeFiles/rebuild_cache.dir

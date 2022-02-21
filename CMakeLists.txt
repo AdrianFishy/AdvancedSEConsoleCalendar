@@ -3,4 +3,4 @@ project(AdvancedSEConsoleCalendar)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AdvancedSEConsoleCalendar main.cpp)
+add_executable(AdvancedSEConsoleCalendar main.cpp Classes/Test.cpp Classes/Test.h)
