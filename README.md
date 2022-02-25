@@ -8,3 +8,6 @@ TODO:
 - Angelegte Termine werden automatisch im Kalender hinterlegt und angezeigt
 - Nutzer kann eigene Termine stornieren
 - Admin kann beliebige Termine löschen
+
+
+Framework: .NET Core 3.1
